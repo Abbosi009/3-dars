@@ -49,7 +49,7 @@ section {
 
 .slider {
   width: 100%;
-  height: 400px; /* balandligini o'zgartirsa bo'ladi */
+  height: 600px; /* balandligini o'zgartirsa bo'ladi */
   overflow: hidden;
   position: relative;
 }
