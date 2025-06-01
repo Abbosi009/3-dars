@@ -5,11 +5,13 @@
 }
 
 
-/* Umumiy sahifa silliq scroll uchun */
+/* Silliq scroll uchun */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 60px; /* Header balandligi */
-  font-family: sans-serif;
+  scroll-padding-top: 60px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Navbar */
@@ -19,7 +21,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 15px 20px;
+  padding: 15px 0;
 }
 
 .navbar nav {
@@ -36,27 +38,19 @@ html {
 }
 
 .navbar a:hover {
-  color: #ffcc00; /* Ustiga bosganda rang o'zgaradi */
+  color: #ffcc00;
 }
 
-/* Har bir bo‘limga biroz balandlik beramiz */
-section {
-  height: 100vh;
-  padding: 50px;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ccc;
-}
-
+/* Slayder */
 .slider {
   width: 100%;
-  height: 600px; /* balandligini o'zgartirsa bo'ladi */
+  height: 400px;
   overflow: hidden;
-  position: relative;
 }
 
 .slides {
   display: flex;
-  width: 300%; /* 3 ta rasm, har biri 100% */
+  width: 300%;
   height: 100%;
   animation: slideAnim 9s infinite;
 }
@@ -74,3 +68,13 @@ section {
   66.66% { transform: translateX(-200%); }
   100% { transform: translateX(0); }
 }
+
+/* Bo‘limlar */
+section {
+  height: 100vh;
+  padding: 50px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+
