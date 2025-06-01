@@ -63,3 +63,164 @@ body {
   33%  { opacity: 1; }
   100% { opacity: 1; }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.5rem;
+}
+
+.italic {
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.description {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tour-section {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.months {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto 40px;
+}
+
+.months li {
+  background: #111;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 5px solid crimson;
+}
+
+.sold-out {
+  color: red;
+  float: right;
+}
+
+.tickets {
+  background-color: crimson;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 50%;
+  float: right;
+}
+
+.tour-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: #222;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.card-text button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-section {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-form {
+  flex: 2;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.map{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
