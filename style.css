@@ -224,3 +224,28 @@ h2 {
   height: 400px;
   overflow: hidden;
 }
+
+footer {
+  padding: 30px 0;
+  background: #ffffff;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 12px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Maxsus ranglar */
+.facebook { color: #000000; }
+.instagram { color: #000000; }
+.snapchat { color: #000000; }
+.twitter { color: #000000; }
+.telegram { color: #000000; }
